@@ -43,14 +43,132 @@ main{
 #pt1{
     background-color:white;
     width:100%;
-    height:70vh;
-    padding:10px;
+    max-width:100%;
+    height:100%;
+    padding:22px;
 }
 #pt1>p{
     margin-left:20px;
     font-family:"Sriracha","sans-serif";
     font-size:1.4em;
+    text-indent:25px;
 }
 #pt2{
-    background-image:url()
+    background-image: url("imagens/background001.jpg");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    background-position: center center;
+    width:100%;
+    max-width:100%;
+    height:70vh;
+    padding:60px;
+    margin-top:0px;
+    background-attachment: fixed;
+    margin-left:0px;
+    margin-right:0px;
+
+    }
+.fundo-transparente{
+    background-image:linear-gradient(to right,black,transparent,rgba(0, 0, 0, 0.339));
+    width:350px;
+    height:450px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    margin-left:3px;
+}
+div>p{
+    color:white;
+    font-size:1.4em;
+    font-family:"Sriracha","sans-serif";
+}
+#pt3{
+    background-color:white;
+    width:100%;
+    max-width:100%;
+    height:80%;
+    padding:22px;
+}
+#pt3>p{
+    margin-left:20px;
+    font-family:"Sriracha","sans-serif";
+    font-size:1.4em;
+    text-indent:25px;
+}
+#pt4{
+    background-color:white;
+    width:100%;
+    max-width:100%;
+    height:80%;
+    padding:22px;
+}
+#pt4>p{
+    margin-left:20px;
+    font-family:"Sriracha","sans-serif";
+    font-size:1.4em;
+    text-indent:25px;
+}
+#pt5{
+    background-image:url("imagens/background002.jpg");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    background-position: center center;
+    width:100%;
+    max-width:100%;
+    height:70vh;
+    padding:60px;
+    margin-top:0px;
+    background-attachment: fixed;
+    margin-left:0px;
+    margin-right:0px;
+}
+#estilo-fundo{
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 0.555),transparent,rgba(0, 0, 0, 0.76))
+}
+#pt6{
+    background-color:white;
+    width:100%;
+    max-width:100%;
+    height:80%;
+    padding:22px;
+}
+#pt6>p{
+    margin-left:20px;
+    font-family:"Sriracha","sans-serif";
+    font-size:1.4em;
+    text-indent:25px;
+}
+#pt7{
+    background-color:white;
+    width:100%;
+    max-width:100%;
+    height:80%;
+    padding:22px; 
+}
+#pt7>p{
+    margin-left:20px;
+    font-family:"Sriracha","sans-serif";
+    font-size:1.4em;
+    text-indent:25px;
+}
+footer{
+    width:100%;
+    max-width:100%;
+    height:auto;
+    padding:25px;
+    text-align:center;
+    font:normal 400 2em "Passion One","serif";
+    background-color: black;
+    color:white;
+}
+footer>a{
+    color:red;
+    text-decoration:none;
+}
+footer>a:hover{
+    color:red;
+    text-decoration:underline;
+}
+footer>a:active{
+    color:red;
+    text-decoration:underline;
 }
